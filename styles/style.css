@@ -65,6 +65,7 @@ ol {
 .content__list-container {
   height: 298px;
   overflow: auto;
+  position: relative;
 }
 
 .content__details {
@@ -76,7 +77,7 @@ ol {
 
 .search-form {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
     align-items: flex-end;
     flex-direction: row;
 }
@@ -182,6 +183,7 @@ ol {
   inline-size: 711px;
   block-size: 386px;
   margin-block-end: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -209,7 +211,7 @@ ol {
 .search-form__label {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
   cursor: pointer;
 }
 
@@ -232,6 +234,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  margin-bottom: 6px;
 }
 
 .search-form__pseudo-checkbox {
