@@ -95,13 +95,14 @@ ol {
 }
 
 .content__list {
-  max-inline-size: 399px;
-  block-size: 298px;
-  overflow-y: auto;
+  max-inline-size: 399px; 
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
 }
 
 .content__list-item {
-  margin-block-end: 30px;
+  
 }
 
 .content__card-link {
@@ -260,6 +261,7 @@ ol {
   block-size: 34px;
   width: 197px;
   height: 33px;
+  margin-top: 30px;
 }
 
 
